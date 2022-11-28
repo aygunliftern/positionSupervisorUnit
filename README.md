@@ -10,7 +10,7 @@ This part includes initiation process of both inspection unprogrammable inputs, 
 - Info messages flags,
 
 ## Inspection Pit Reset
-
+Pit inspection menu configuration (pitInspectionState) or pit inspection input (IS_PIT_INSPECTION_ACTIVE) should always be [DISABLE]
 
 
 # Abbreviations
