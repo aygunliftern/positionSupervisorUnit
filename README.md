@@ -23,7 +23,7 @@ Car controller states updated before finding current state of the PSU.
 PSU modes include,
  - [InitializeCarPosition](#initialize-car-position)
  - [UserCarManagment](#user-car-management)
- - [Inspection]
+ - [Inspection](#inspection)
  - [Recall]
  - [Fault]
  - [BlockedFault]
