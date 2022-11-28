@@ -10,8 +10,11 @@ This part includes initiation process of both inspection unprogrammable inputs, 
 - Info messages flags,
 
 ## Inspection Pit Reset
-Pit inspection menu configuration (pitInspectionState) or pit inspection input (IS_PIT_INSPECTION_ACTIVE) should always be [DISABLE](#disable)
+Pit inspection menu configuration (pitInspectionState) or pit inspection input (IS_PIT_INSPECTION_ACTIVE) value should always be [DISABLE](#disable).
 
+Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
+
+onlyInspectionProcess is one of the states of the car controller states (carControllerStates).
 
 # Abbreviations
 
