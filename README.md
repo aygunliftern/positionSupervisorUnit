@@ -2,7 +2,7 @@
 
  1. [Initialization](#initialization)
  2. [Inspection Pit Reset](#inspection-pit-reset)
- 3. [Car Controller State Switch Case]
+ 3. [Car Controller State Switch Case](#car-controller-state-switch-case)
  
 ## Initialization
 This part includes initiation process of both inspection unprogrammable inputs, info messages flags.
