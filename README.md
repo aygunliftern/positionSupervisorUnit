@@ -6,8 +6,8 @@
  
 ## Initialization
 This part includes initiation process of both inspection unprogrammable inputs, info messages flags.
-- Inspection unprogrammable inputs,
-- Info messages flags,
+>Inspection unprogrammable inputs indicates inpection up and down variables.
+>Info messages flags indicates messages to be shown on LCD.
 
 ## Inspection Pit Reset
 Pit inspection menu configuration (pitInspectionState) or pit inspection input (IS_PIT_INSPECTION_ACTIVE) value should always be [DISABLE](#disable).
