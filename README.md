@@ -1,7 +1,7 @@
 # Contents
 
  1. [Initialization](#initialization)
- 2. [Inspection Pit Reset]
+ 2. [Inspection Pit Reset](#inspection-pit-reset)
  3. [Car Controller State Switch Case]
  
 ## Initialization
