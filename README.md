@@ -25,7 +25,7 @@ PSU modes include,
  - [UserCarManagment](#user-car-management)
  - [Inspection](#inspection)
  - [Recall](#recall)
- - [Fault]
+ - [Fault](#fault)
  - [BlockedFault]
  - [Installation]
  - [BypassSelected]
