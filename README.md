@@ -21,7 +21,7 @@ Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
 Car controller states updated before finding current state of the PSU.
 
 PSU modes include,
- - [InitializeCarPosition]
+ - [InitializeCarPosition](#initialize-car-position)
  - [UserCarManagment]
  - [Inspection]
  - [Recall]
