@@ -18,6 +18,21 @@ Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
 
 ## Car Controller State Switch Case
 
+Car controller states updated before finding current state of the PSU.
+
+PSU modes include,
+ - InitializeCarPosition
+ - UserCarManagment
+ - Inspection
+ - Recall
+ - Fault
+ - BlockedFault
+ - Installation
+ - BypassSelected
+ - Evacuation
+ - OnlyInspection
+ - ReleaseInspection
+
 # Abbreviations
 
  ##### **DISABLE** 
