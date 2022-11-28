@@ -24,7 +24,7 @@ PSU modes include,
  - [InitializeCarPosition](#initialize-car-position)
  - [UserCarManagment](#user-car-management)
  - [Inspection](#inspection)
- - [Recall]
+ - [Recall](#recall)
  - [Fault]
  - [BlockedFault]
  - [Installation]
