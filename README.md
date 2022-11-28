@@ -1,6 +1,6 @@
 # Contents
 
- 1. [Initialization]
+ 1. [Initialization](#initialization)
  2. [Inspection Pit Reset]
  3. [Car Controller State Switch Case]
  
