@@ -61,6 +61,7 @@ If car controller states (carControllerStates) is Recall:
 - Inspection flag set to [TRUE](#true).
 - Timer after inspection becomes 0.
 - Car lights set to [TRUE](#true).
+- Display shows "Recall"
 - Programmable output of Lift in Maintenance set to [TRUE](#true).
 - Execute [RecalOperation](#recaloperation) function.
 #### Fault
@@ -90,12 +91,14 @@ If car controller states (carControllerStates) is Installation:
 - Programmable output of Lift in Maintenance set to [TRUE](#true).
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
+- Display shows "Installation"
 #### Bypass Selected
 If car controller states (carControllerStates) is BypassSelected:
 - Timer after inspection becomes 0.
 - Programmable output of Lift in Maintenance set to [FALSE](#false).
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
+- Display shows "Bypass"
 #### Evactuation
 #### Only Inspection
 #### Release Inspection
