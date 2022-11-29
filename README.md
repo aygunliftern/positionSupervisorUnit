@@ -49,11 +49,11 @@ If car controller states (carControllerStates) is UserCarManagement:
 #### Inspection
 If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
-- Inspection flag set to true.
+- Inspection flag set to TRUE.
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Programmable output of lift in maintenance set to true.
-- execute inspection function (InspectionOperation).
+- Programmable output of Lift in Maintenance set to TRUE.
+- execute InspectionOperation function.
 #### Recall
 If car controller states (carControllerStates) is Recall:
 - [carManagement](#carmanagement) set to carIdle.
