@@ -34,8 +34,11 @@ PSU modes include,
 11.  [ReleaseInspection](#release-inspection)
 
 #### Initialize Car Position
- - Initialize car position state executes,
-	 - sdsdf
+If car controller states (carControllerStates) is InitializeCarPosition:
+	- Car lights goes on
+	- Find car position LCD info message flag is TRUE.
+	- Timer after inspection becomes 0.
+	- Find first floor
 #### User Car Management
 #### Inspection
 #### Recall
