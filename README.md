@@ -102,7 +102,7 @@ If car controller states (carControllerStates) is Installation:
  ##### **CarManagement**
  > is a function, which takes carManagement as input.
  ##### **psuControl**
- > is a struct, indicates inspection movement.
+ > is a struct, indicates movement of inspection.
  ##### **InspectionOperation**
  > is a function, which takes psuControl address as input.
  ##### **RecalOperation**
