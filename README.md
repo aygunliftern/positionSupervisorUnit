@@ -62,7 +62,7 @@ If car controller states (carControllerStates) is Recall:
 - Timer after inspection becomes 0.
 - Car lights goes on.
 - Programmable output of lift in maintenance set to true.
-- Execute RecalOperation function.
+- Execute [RecalOperation](#recaloperation) function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
 - Car idling sequence (carIdle) will be executed on next car management function.
