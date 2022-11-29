@@ -35,10 +35,10 @@ PSU modes include,
 
 #### Initialize Car Position
 If car controller states (carControllerStates) is InitializeCarPosition:
-	- Car lights goes on
-	- Find car position LCD info message flag is TRUE.
-	- Timer after inspection becomes 0.
-	- Find first floor
+- Car lights goes on
+- Find car position LCD info message flag is TRUE.
+- Timer after inspection becomes 0.
+- Find first floor
 #### User Car Management
 #### Inspection
 #### Recall
