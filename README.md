@@ -35,12 +35,19 @@ PSU modes include,
 
 #### Initialize Car Position
 If car controller states (carControllerStates) is InitializeCarPosition:
-- Car lights goes on
-- Find car position LCD info message flag is TRUE.
+- Car lights goes on.
+- Display shows "Finding car position".
 - Timer after inspection becomes 0.
-- Find first floor
+- Find first floor.
+- Car idling sequence (carIdle) will be executed on next car management function.
 #### User Car Management
+- Reset variables of finding floors.
+- Timer after inspection becomes 0.
+- Display shows "Waiting calls"
+- Execute car management function (CarManagement)
 #### Inspection
+- Reset variables of finding floors
+- 
 #### Recall
 #### Fault
 #### Installation
