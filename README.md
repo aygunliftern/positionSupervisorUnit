@@ -39,13 +39,13 @@ If car controller states (carControllerStates) is InitializeCarPosition:
 - Display shows "Finding car position".
 - Timer after inspection becomes 0.
 - Find first floor.
-- [carManagement]() set to carIdle. 
+- [carManagement](#carmanagement) set to carIdle. 
 #### User Car Management
 If car controller states (carControllerStates) is UserCarManagement:
 - Reset variables of finding floors.
 - Timer after inspection becomes 0.
 - Display shows "Waiting calls"
-- Execute car management function (CarManagement)
+- Execute [CarManagement](#carmanagement) function
 #### Inspection
 If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
