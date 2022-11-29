@@ -118,3 +118,7 @@ If car controller states (carControllerStates) is Installation:
  > means the input is 0
  ##### **ENABLE**
  > means the input is 1
+ ##### **FALSE** 
+ > means the input is 0
+ ##### **TRUE**
+ > means the input is 1
