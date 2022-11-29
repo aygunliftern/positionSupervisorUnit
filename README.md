@@ -45,24 +45,24 @@ If car controller states (carControllerStates) is UserCarManagement:
 - Reset variables of finding floors.
 - Timer after inspection becomes 0.
 - Display shows "Waiting calls"
-- Execute [CarManagement](#carmanagement) function
+- Execute [CarManagement](#carmanagement-1) function
 #### Inspection
 If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
 - Inspection flag set to true.
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Variable for screen to show "Lift in Maintenance" true.
+- Programmable output of lift in maintenance set to true.
 - execute inspection function (InspectionOperation).
 #### Recall
 If car controller states (carControllerStates) is Recall:
-- Car idling sequence (carIdle) will be executed on next car management function.
+- [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Inspection flag will be true.
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Variable for screen to show "Lift in Maintenance" true.
-- Execute recall operation function (RecalOperation)
+- Programmable output of lift in maintenance set to true.
+- Execute RecalOperation function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
 - Car idling sequence (carIdle) will be executed on next car management function.
@@ -101,6 +101,12 @@ If car controller states (carControllerStates) is Installation:
  > is a enum indicates car current state.
  ##### **CarManagement**
  > is a function, which takes carManagement as input.
+ ##### **psuControl**
+ > is a struct, indicates inspection movement.
+ ##### **InspectionOperation**
+ > is a function, which takes psuControl address as input.
+ ##### **RecalOperation**
+ > is a function, which takes psuControl address as input.
 
 # Abbreviations
 
