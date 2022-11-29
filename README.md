@@ -41,17 +41,25 @@ If car controller states (carControllerStates) is InitializeCarPosition:
 - Find first floor.
 - Car idling sequence (carIdle) will be executed on next car management function.
 #### User Car Management
+If car controller states (carControllerStates) is UserCarManagement:
 - Reset variables of finding floors.
 - Timer after inspection becomes 0.
 - Display shows "Waiting calls"
 - Execute car management function (CarManagement)
 #### Inspection
-- Reset variables of finding floors
+If car controller states (carControllerStates) is Inspection:
+- Reset variables of finding floors.
 - Inspection flag will be true.
 - Timer after inspection becomes 0.
 - Car lights goes on.
 - Variable for screen to show "Lift in Maintenance" true.
+- execute inspection function (InspectionOperation).
 #### Recall
+If car controller states (carControllerStates) is Recall:
+- Car idling sequence (carIdle) will be executed on next car management function.
+- Reset variables of finding floors.
+- Inspection flag will be true.
+- 
 #### Fault
 #### Installation
 #### Blocked Fault
