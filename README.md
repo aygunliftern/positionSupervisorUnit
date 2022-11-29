@@ -122,16 +122,18 @@ If car controller states (carControllerStates) is OnlyInspection:
 
 # Expressions
 
+ ##### **onlyInspectionProcess**
+ > onlyInspectionProcess is one of the states of the car controller states (carControllerStates)
  ##### **carControllerStates**
- > is an enum, which updated by [CarControllerStateDecision](#carcontrollerstatedecision) function.
+ > updated by [CarControllerStateDecision](#carcontrollerstatedecision) function.
  ##### **CarControllerStateDecision**
- > is a function, which decides the current mode of the PSU.
+ > decides the current mode of the PSU.
  ##### **carManagement**
- > is an enum indicates car current state.
+ > indicates car current state.
  ##### **CarManagement**
  > is a function, which takes carManagement as input.
  ##### **psuControl**
- > is a struct indicates movement of inspection.
+ > indicates movement of inspection.
  ##### **InspectionOperation**
  > is a function, which takes [psuControl](#psucontrol) address as input.
  ##### **RecalOperation**
