@@ -100,7 +100,19 @@ If car controller states (carControllerStates) is BypassSelected:
 - Reset variables of finding floors.
 - Display shows "Bypass"
 #### Evactuation
+If car controller states (carControllerStates) is Evacation:
+- Timer after inspection becomes 0.
+- Car lights set to [TRUE](#true).
+- [carManagement](#carmanagement) set to carIdle.
+- Reset variables of finding floors.
+- Display shows "Evacuation"
 #### Only Inspection
+If car controller states (carControllerStates) is OnlyInspection:
+- Timer after inspection becomes 0.
+- Programmable output of Lift in Maintenance set to [TRUE](#true).
+- [carManagement](#carmanagement) set to carIdle.
+- Reset variables of finding floors.
+- Display shows "OnlyInspection"
 #### Release Inspection
 
 # Expressions
