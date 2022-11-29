@@ -14,8 +14,6 @@ Pit inspection menu configuration (pitInspectionState) or pit inspection input (
 
 Otherwise variable of [onlyInspectionProcess](#onlyinspectionprocess) will be 1.
 
->onlyInspectionProcess is one of the states of the car controller states (carControllerStates).
-
 ## Car Controller State Switch Case
 
 Car controller states (carControllerStates) updated before switch cases of PSU.
