@@ -18,7 +18,7 @@ Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
 
 ## Car Controller State Switch Case
 
-Car controller states (carControllerStates) updated before finding current state of the PSU.
+Car controller states (carControllerStates) updated before switch cases of PSU.
 
 PSU modes include,
 1.  [InitializeCarPosition](#initialize-car-position)
@@ -97,12 +97,16 @@ If car controller states (carControllerStates) is Installation:
 
 # Expressions
 
+ ##### **carControllerStates**
+ > is an enum, which updated by CarControllerStateDecision function.
+ ##### **carControllerStates**
+ > is a function, which decides the current mode of the PSU.
  ##### **carManagement**
- > is a enum indicates car current state.
+ > is an enum indicates car current state.
  ##### **CarManagement**
  > is a function, which takes carManagement as input.
  ##### **psuControl**
- > is a struct, indicates movement of inspection.
+ > is a struct indicates movement of inspection.
  ##### **InspectionOperation**
  > is a function, which takes psuControl address as input.
  ##### **RecalOperation**
