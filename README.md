@@ -39,7 +39,7 @@ If car controller states (carControllerStates) is InitializeCarPosition:
 - Display shows "Finding car position".
 - Timer after inspection becomes 0.
 - Find first floor.
-- Car idling sequence (carIdle) will be executed on next car management function.
+- [carManagement]() set to carIdle. 
 #### User Car Management
 If car controller states (carControllerStates) is UserCarManagement:
 - Reset variables of finding floors.
@@ -49,7 +49,7 @@ If car controller states (carControllerStates) is UserCarManagement:
 #### Inspection
 If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
-- Inspection flag will be true.
+- Inspection flag set to true.
 - Timer after inspection becomes 0.
 - Car lights goes on.
 - Variable for screen to show "Lift in Maintenance" true.
@@ -94,6 +94,13 @@ If car controller states (carControllerStates) is Installation:
 #### Evactuation
 #### Only Inspection
 #### Release Inspection
+
+# Expressions
+
+ ##### **carManagement**
+ > is a enum indicates car current state.
+ ##### **CarManagement**
+ > is a function, which takes carManagement as input.
 
 # Abbreviations
 
