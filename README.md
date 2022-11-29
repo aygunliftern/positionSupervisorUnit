@@ -117,7 +117,8 @@ If car controller states (carControllerStates) is OnlyInspection:
 #### Release Inspection
 - Programmable output of Lift in Maintenance set to [TRUE](#true).
 - Reset variables of finding floors.
-- 
+- Configure display not to show "Relesease Inspection".
+- Execute ReleaseInspectionManagement function.
 
 # Expressions
 
