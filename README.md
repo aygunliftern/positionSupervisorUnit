@@ -81,13 +81,13 @@ If car controller states (carControllerStates) is BlockedFault:
 - Car lights goes on.
 - Timer after inspection becomes 0.
 - No direction selected.
-- Variable for screen to show "Out of Order" true.
+- Programmable output of Out of Order set to TRUE.
 - Set car speed to no speed.
 #### Installation
 If car controller states (carControllerStates) is Installation:
 - No direction selected.
 - Timer after inspection becomes 0.
-- Variable for screen to show "Lift in Maintenance" true.
+- Programmable output of Lift in Maintenance set to TRUE.
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 #### Bypass Selected
