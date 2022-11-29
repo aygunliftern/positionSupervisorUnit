@@ -65,7 +65,7 @@ If car controller states (carControllerStates) is Recall:
 - Execute [RecalOperation](#recaloperation) function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
-- Car idling sequence (carIdle) will be executed on next car management function.
+- [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Car lights goes on.
 - Display shows "System Fault".
@@ -75,7 +75,7 @@ If car controller states (carControllerStates) is Fault:
 - Set car speed to no speed.
 #### Blocked Fault
 If car controller states (carControllerStates) is BlockedFault:
-- Car idling sequence (carIdle) will be executed on next car management function.
+- [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Display shows "System Blocked Fault".
 - Car lights goes on.
@@ -88,7 +88,7 @@ If car controller states (carControllerStates) is Installation:
 - No direction selected.
 - Timer after inspection becomes 0.
 - Variable for screen to show "Lift in Maintenance" true.
-- Car idling sequence (carIdle) will be executed on next car management function.
+- [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 #### Bypass Selected
 #### Evactuation
