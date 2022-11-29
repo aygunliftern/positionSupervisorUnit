@@ -59,7 +59,9 @@ If car controller states (carControllerStates) is Recall:
 - Car idling sequence (carIdle) will be executed on next car management function.
 - Reset variables of finding floors.
 - Inspection flag will be true.
-- 
+- Timer after inspection becomes 0.
+- Car lights goes on.
+- Variable for screen to show "Lift in Maintenance" true.
 #### Fault
 #### Installation
 #### Blocked Fault
