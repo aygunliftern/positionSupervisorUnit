@@ -38,6 +38,7 @@ PSU modes include,
 #### Inspection
 #### Recall
 #### Fault
+#### Installation
 #### Blocked Fault
 #### Bypass Selected
 #### Evactuation
