@@ -69,7 +69,7 @@ If car controller states (carControllerStates) is Recall:
 - Car lights goes on.
 - Display shows "System Fault".
 - Timer after inspection becomes 0.
-- 
+- No direction selected.
 #### Installation
 #### Blocked Fault
 #### Bypass Selected
