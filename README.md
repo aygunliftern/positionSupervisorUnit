@@ -21,17 +21,17 @@ Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
 Car controller states (carControllerStates) updated before finding current state of the PSU.
 
 PSU modes include,
- - [InitializeCarPosition](#initialize-car-position)
- - [UserCarManagment](#user-car-management)
- - [Inspection](#inspection)
- - [Recall](#recall)
- - [Fault](#fault)
- - [BlockedFault](#blocked-fault)
- - [Installation](#installation)
- - [BypassSelected](#bypass-selected)
- - [Evacuation](#evactuation)
- - [OnlyInspection](#only-inspection)
- - [ReleaseInspection](#release-inspection)
+  [InitializeCarPosition](#initialize-car-position)
+  [UserCarManagment](#user-car-management)
+  [Inspection](#inspection)
+  [Recall](#recall)
+  [Fault](#fault)
+  [BlockedFault](#blocked-fault)
+  [Installation](#installation)
+  [BypassSelected](#bypass-selected)
+  [Evacuation](#evactuation)
+  [OnlyInspection](#only-inspection)
+  [ReleaseInspection](#release-inspection)
 
 #### Initialize Car Position
  - Initialize car position state executes,
