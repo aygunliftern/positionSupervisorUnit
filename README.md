@@ -99,7 +99,7 @@ If car controller states (carControllerStates) is Installation:
 
  ##### **carControllerStates**
  > is an enum, which updated by CarControllerStateDecision function.
- ##### **carControllerStates**
+ ##### **CarControllerStateDecision**
  > is a function, which decides the current mode of the PSU.
  ##### **carManagement**
  > is an enum indicates car current state.
