@@ -61,7 +61,7 @@ If car controller states (carControllerStates) is Recall:
 - Inspection flag will be true.
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Programmable output of lift in maintenance set to true.
+- Programmable output of Lift in Maintenance set to TRUE.
 - Execute [RecalOperation](#recaloperation) function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
@@ -71,7 +71,7 @@ If car controller states (carControllerStates) is Fault:
 - Display shows "System Fault".
 - Timer after inspection becomes 0.
 - No direction selected.
-- Variable for screen to show "Out of Order" true.
+- Programmable output of Out of Order set to TRUE.
 - Set car speed to no speed.
 #### Blocked Fault
 If car controller states (carControllerStates) is BlockedFault:
