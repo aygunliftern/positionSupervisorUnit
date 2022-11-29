@@ -35,7 +35,7 @@ PSU modes include,
 
 #### Initialize Car Position
 If car controller states (carControllerStates) is InitializeCarPosition:
-- Car lights goes on.
+- Car lights set to [TRUE](#true).
 - Display shows "Finding car position".
 - Timer after inspection becomes 0.
 - Find first floor.
@@ -51,7 +51,7 @@ If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
 - Inspection flag set to [TRUE](#true).
 - Timer after inspection becomes 0.
-- Car lights goes on.
+- Car lights set to [TRUE](#true).
 - Programmable output of Lift in Maintenance set to [TRUE](#true).
 - execute [InspectionOperation](#inspectionoperation) function.
 #### Recall
@@ -60,14 +60,14 @@ If car controller states (carControllerStates) is Recall:
 - Reset variables of finding floors.
 - Inspection flag set to [TRUE](#true).
 - Timer after inspection becomes 0.
-- Car lights goes on.
+- Car lights set to [TRUE](#true).
 - Programmable output of Lift in Maintenance set to [TRUE](#true).
 - Execute [RecalOperation](#recaloperation) function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
-- Car lights goes on.
+- Car lights set to [TRUE](#true).
 - Display shows "System Fault".
 - Timer after inspection becomes 0.
 - No direction selected.
@@ -78,7 +78,7 @@ If car controller states (carControllerStates) is BlockedFault:
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Display shows "System Blocked Fault".
-- Car lights goes on.
+- Car lights set to [TRUE](#true).
 - Timer after inspection becomes 0.
 - No direction selected.
 - Programmable output of Out of Order set to [TRUE](#true).
