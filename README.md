@@ -27,7 +27,7 @@ PSU modes include,
  - [Recall](#recall)
  - [Fault](#fault)
  - [BlockedFault](#blocked-fault)
- - [Installation]
+ - [Installation](#installation)
  - [BypassSelected]
  - [Evacuation]
  - [OnlyInspection]
