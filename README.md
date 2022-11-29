@@ -113,7 +113,11 @@ If car controller states (carControllerStates) is OnlyInspection:
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Display shows "OnlyInspection"
+- If Inspection Pit Reset is equal to 1, onlyInspectionProcess is equal to 0. Else if, Inspection Pit Reset is not equal to 1, waitInspectionReset is equal to 0;
 #### Release Inspection
+- Programmable output of Lift in Maintenance set to [TRUE](#true).
+- Reset variables of finding floors.
+- 
 
 # Expressions
 
