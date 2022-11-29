@@ -62,6 +62,7 @@ If car controller states (carControllerStates) is Recall:
 - Timer after inspection becomes 0.
 - Car lights goes on.
 - Variable for screen to show "Lift in Maintenance" true.
+- Execute recall operation function (RecalOperation)
 #### Fault
 #### Installation
 #### Blocked Fault
