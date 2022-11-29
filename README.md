@@ -64,13 +64,18 @@ If car controller states (carControllerStates) is Recall:
 - Variable for screen to show "Lift in Maintenance" true.
 - Execute recall operation function (RecalOperation)
 #### Fault
+If car controller states (carControllerStates) is Fault:
 - Car idling sequence (carIdle) will be executed on next car management function.
 - Reset variables of finding floors.
 - Car lights goes on.
 - Display shows "System Fault".
 - Timer after inspection becomes 0.
 - No direction selected.
+- Variable for screen to show "Out of Order" true.
+- Set car speed to no speed.
 #### Installation
+If car controller states (carControllerStates) is Installation:
+- 
 #### Blocked Fault
 #### Bypass Selected
 #### Evactuation
