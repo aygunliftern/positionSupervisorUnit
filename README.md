@@ -53,7 +53,7 @@ If car controller states (carControllerStates) is Inspection:
 - Timer after inspection becomes 0.
 - Car lights goes on.
 - Programmable output of Lift in Maintenance set to TRUE.
-- execute InspectionOperation function.
+- execute [InspectionOperation] function.
 #### Recall
 If car controller states (carControllerStates) is Recall:
 - [carManagement](#carmanagement) set to carIdle.
