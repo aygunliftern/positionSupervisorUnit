@@ -49,19 +49,19 @@ If car controller states (carControllerStates) is UserCarManagement:
 #### Inspection
 If car controller states (carControllerStates) is Inspection:
 - Reset variables of finding floors.
-- Inspection flag set to TRUE.
+- Inspection flag set to [TRUE](#true).
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Programmable output of Lift in Maintenance set to TRUE.
+- Programmable output of Lift in Maintenance set to [TRUE](#true).
 - execute [InspectionOperation](#inspectionoperation) function.
 #### Recall
 If car controller states (carControllerStates) is Recall:
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
-- Inspection flag will be true.
+- Inspection flag set to [TRUE](#true).
 - Timer after inspection becomes 0.
 - Car lights goes on.
-- Programmable output of Lift in Maintenance set to TRUE.
+- Programmable output of Lift in Maintenance set to [TRUE](#true).
 - Execute [RecalOperation](#recaloperation) function.
 #### Fault
 If car controller states (carControllerStates) is Fault:
@@ -71,7 +71,7 @@ If car controller states (carControllerStates) is Fault:
 - Display shows "System Fault".
 - Timer after inspection becomes 0.
 - No direction selected.
-- Programmable output of Out of Order set to TRUE.
+- Programmable output of Out of Order set to [TRUE](#true).
 - Set car speed to no speed.
 #### Blocked Fault
 If car controller states (carControllerStates) is BlockedFault:
@@ -81,13 +81,13 @@ If car controller states (carControllerStates) is BlockedFault:
 - Car lights goes on.
 - Timer after inspection becomes 0.
 - No direction selected.
-- Programmable output of Out of Order set to TRUE.
+- Programmable output of Out of Order set to [TRUE](#true).
 - Set car speed to no speed.
 #### Installation
 If car controller states (carControllerStates) is Installation:
 - No direction selected.
 - Timer after inspection becomes 0.
-- Programmable output of Lift in Maintenance set to TRUE.
+- Programmable output of Lift in Maintenance set to [TRUE](#true).
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 #### Bypass Selected
