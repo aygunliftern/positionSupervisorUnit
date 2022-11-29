@@ -31,7 +31,7 @@ PSU modes include,
  - [BypassSelected](#bypass-selected)
  - [Evacuation](#evactuation)
  - [OnlyInspection](#only-inspection)
- - [ReleaseInspection]
+ - [ReleaseInspection](#release-inspection)
 
 #### Initialize Car Position
 #### User Car Management
