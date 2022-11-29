@@ -108,9 +108,9 @@ If car controller states (carControllerStates) is Installation:
  ##### **psuControl**
  > is a struct indicates movement of inspection.
  ##### **InspectionOperation**
- > is a function, which takes psuControl address as input.
+ > is a function, which takes [psuControl](#psucontrol) address as input.
  ##### **RecalOperation**
- > is a function, which takes psuControl address as input.
+ > is a function, which takes [psuControl](#psucontrol) address as input.
 
 # Abbreviations
 
