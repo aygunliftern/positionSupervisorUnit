@@ -91,6 +91,11 @@ If car controller states (carControllerStates) is Installation:
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 #### Bypass Selected
+If car controller states (carControllerStates) is BypassSelected:
+- Timer after inspection becomes 0.
+- Programmable output of Lift in Maintenance set to [FALSE](#false).
+- [carManagement](#carmanagement) set to carIdle.
+- Reset variables of finding floors.
 #### Evactuation
 #### Only Inspection
 #### Release Inspection
