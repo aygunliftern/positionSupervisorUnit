@@ -47,7 +47,10 @@ If car controller states (carControllerStates) is InitializeCarPosition:
 - Execute car management function (CarManagement)
 #### Inspection
 - Reset variables of finding floors
-- 
+- Inspection flag will be true.
+- Timer after inspection becomes 0.
+- Car lights goes on.
+- Variable for screen to show "Lift in Maintenance" true.
 #### Recall
 #### Fault
 #### Installation
