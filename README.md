@@ -34,8 +34,8 @@ PSU modes include,
  - [ReleaseInspection](#release-inspection)
 
 #### Initialize Car Position
-Initialize car position state executes,
--- fafs
+-Initialize car position state executes,
+ - asd
 #### User Car Management
 #### Inspection
 #### Recall
