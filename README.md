@@ -18,7 +18,7 @@ Otherwise variable of only inspection process (onlyInspectionProcess) will be 1.
 
 ## Car Controller State Switch Case
 
-Car controller states updated before finding current state of the PSU.
+Car controller states (carControllerStates) updated before finding current state of the PSU.
 
 PSU modes include,
  - [InitializeCarPosition](#initialize-car-position)
@@ -34,6 +34,8 @@ PSU modes include,
  - [ReleaseInspection](#release-inspection)
 
 #### Initialize Car Position
+Initialize car position state executes,
+-- fafs
 #### User Car Management
 #### Inspection
 #### Recall
