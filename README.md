@@ -129,7 +129,7 @@ If car controller states (carControllerStates) is OnlyInspection:
  ##### **carManagement**
  > indicates car current state.
  ##### **CarManagement**
- > is a function, which takes carManagement as input.
+ > is a function decide which function (carIdle,releveling,requestCloseDoor,carStart,cruise,carStop) should be executed. It takes [carManagement](#carmanagement) as input. 
  ##### **psuControl**
  > indicates movement of inspection.
  ##### **InspectionOperation**
