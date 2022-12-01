@@ -133,9 +133,9 @@ If car controller states (carControllerStates) is OnlyInspection:
  ##### **psuControl**
  > indicates movement of inspection.
  ##### **InspectionOperation**
- > is a function decide which inspection mode is active. It takes [psuControl](#psucontrol) address as input.
+ > is a function decide which inspection mode is active(car, pit or both). It takes [psuControl](#psucontrol) address as input.
  ##### **RecalOperation**
- > is a function, which takes [psuControl](#psucontrol) address as input.
+ > is a function decides which recall operations should be taken(recall up or recall down). It takes [psuControl](#psucontrol) address as input.
 
 # Abbreviations
 
