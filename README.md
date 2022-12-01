@@ -86,7 +86,7 @@ If car controller states (carControllerStates) is BlockedFault:
 If car controller states (carControllerStates) is Installation:
 - No direction selected.
 - Timer after inspection becomes 0.
-- Programmable output of Lift in Maintenance set to [TRUE](#true).
+- Programmable output of Lift in Maintenance set to [FALSE](#false).
 - [carManagement](#carmanagement) set to carIdle.
 - Reset variables of finding floors.
 - Display shows "Installation"
