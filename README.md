@@ -5,7 +5,7 @@
  3. [Car Controller State Switch Case](#car-controller-state-switch-case)
  
 ## Initialization
-This part includes initiation process of both inspection unprogrammable inputs, info messages flags.
+This part includes initiation process of both inspection unprogrammable inputs and info message flags.
 >Inspection unprogrammable inputs indicates inpection up and down variables.
 >Info messages flags indicates messages to be shown on LCD.
 
