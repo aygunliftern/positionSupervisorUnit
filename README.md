@@ -6,7 +6,7 @@
  
 ## Initialization
 This part includes initiation process of both inspection unprogrammable inputs and info messages flags.
->Inspection unprogrammable inputs indicate inpection up and down state of variables.
+>Inspection unprogrammable inputs indicate inspection up and down state of variables.
 
 >Info message flags indicate messages to be shown on LCD.
 
