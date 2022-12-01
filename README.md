@@ -121,7 +121,7 @@ If car controller states (carControllerStates) is OnlyInspection:
 # Expressions
 
  ##### **onlyInspectionProcess**
- > onlyInspectionProcess is one of the states of the car controller states (carControllerStates)
+ > is one of the states of the car controller states (carControllerStates)
  ##### **carControllerStates**
  > updated by [CarControllerStateDecision](#carcontrollerstatedecision) function.
  ##### **CarControllerStateDecision**
