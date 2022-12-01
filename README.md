@@ -7,6 +7,7 @@
 ## Initialization
 This part includes initiation process of both inspection unprogrammable inputs and info messages flags.
 >Inspection unprogrammable inputs indicates inpection up and down variables.
+
 >Info messages flags indicates messages to be shown on LCD.
 
 ## Inspection Pit Reset
